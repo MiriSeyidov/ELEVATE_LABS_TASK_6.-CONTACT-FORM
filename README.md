@@ -1,0 +1,1 @@
+Today, I have created a contact form and validated inputs using JavaScript. Used a simple, modest and usefull design with the help of HTML and CSS. The form prevents submission if validation fails. It also tests for empty inputs, invalid e-mails and special characters (Regex used for E-mail).
