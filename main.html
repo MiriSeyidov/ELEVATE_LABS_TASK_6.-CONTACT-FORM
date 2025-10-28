@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form action="">
+    <form id="contact_form" action="">
       <h1>Contact Form</h1>
+
       <label for="username">Username:</label>
       <input
         type="text"
@@ -20,24 +21,23 @@
 
       <label for="mail">E-mail:</label>
       <input
-        type="mail"
+        type="email"
         id="mail"
-        placeholder="Enter your e-main"
+        placeholder="Enter your email"
         name="mail"
       />
-      <div class="error" id="mail_error"></div>
+      <div class="error" id="email_error"></div>
 
       <label for="message">Message:</label>
-      <input
-        type="message"
+      <textarea
         id="message"
         placeholder="Enter your message"
-        name="Login"
-      />
+        name="message"
+      ></textarea>
       <div class="error" id="message_error"></div>
 
-      <button>Submit</button>
-      <p>Message successfully sent</p>
+      <button type="submit">Submit</button>
+      <p id="success_message"></p>
     </form>
     <script src="script.js"></script>
   </body>
