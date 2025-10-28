@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form action="">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="Enter your name"
+        name="username"
+      />
+      <div class="error" id="name_error"></div>
+
+      <label for="mail">E-mail:</label>
+      <input
+        type="mail"
+        id="mail"
+        placeholder="Enter your e-main"
+        name="mail"
+      />
+      <div class="error" id="mail_error"></div>
+
+      <label for="message">Message:</label>
+      <input
+        type="message"
+        id="message"
+        placeholder="Enter your message"
+        name="Login"
+      />
+      <div class="error" id="message_error"></div>
+
+      <button>Submit</button>
+      <p>Message successfully sent</p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
